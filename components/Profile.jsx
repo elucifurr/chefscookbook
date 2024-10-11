@@ -8,7 +8,7 @@ const Profile = ({ name, desc, data, handleEdit, handleDelete }) => {
       </h1>
       <p className='desc text-left'>{desc}</p>
 
-      <div className='mt-10 prompt_layout'>
+      <div className='mt-10 recipe_layout'>
         {data.map((post) => (
           <RecipeCard
             key={post._id}
